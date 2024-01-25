@@ -1,6 +1,7 @@
 export type Week =  {
     week: Number;
     topic: string;
+    emoji?: string;
   }
 
 export type Year = {
