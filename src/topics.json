@@ -1,0 +1,17 @@
+{
+    "years": [
+        {
+            "year": 2024,
+            "weeks": [
+                {
+                    "week": 1,
+                    "topic": "Teams"
+                },
+                {
+                    "week": 4,
+                    "topic": "Strategie"
+                }
+            ]
+        }
+    ]
+}

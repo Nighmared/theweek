@@ -1,6 +1,15 @@
 .App {
   text-align: center;
+
 }
+
+body{
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -11,6 +20,24 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.vseth {
+  color: #009FE3;
+}
+
+.yearTitle {
+  text-decoration: underline;
+}
+
+.left {
+  text-align: left;
+}
+
+.topicText {
+  /* color: #009FE3; */
+  color: white;
+  font-weight: bold;
 }
 
 .App-header {
@@ -36,3 +63,5 @@
     transform: rotate(360deg);
   }
 }
+
+

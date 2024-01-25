@@ -1,24 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { ListItemButton } from '@mui/material';
+import jsonData from "./topics.json";
+import { TopicList } from './util/types';
+import YearList from './components/YearList';
+
+
 
 function App() {
+
+  const topicList: TopicList = JSON.parse(JSON.stringify(jsonData));
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App max-w-3xl mx-auto">
+      <h1 className='text-8xl text-vseth pb-6'> Topic of the Week</h1>
+      <YearList topicList={topicList} />
     </div>
   );
 }
