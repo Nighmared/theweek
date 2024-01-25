@@ -9,7 +9,7 @@ function App() {
   const topicList: TopicList = JSON.parse(JSON.stringify(jsonData));
   return (
     <>
-      <div className="App max-w-3xl mx-auto mt-5">
+      <div className="App max-w-4xl mx-auto mt-5">
         <h1 className="text-8xl text-vseth pb-6">Thema der Woche</h1>
         <YearList topicList={topicList} />
       </div>
