@@ -1,4 +1,3 @@
-import { Divider, List } from "@mui/material";
 import { Week, Year } from "../util/types";
 
 import WeekContainer from "./WeekContainer";

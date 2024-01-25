@@ -1,6 +1,5 @@
 import "./App.css";
 
-import { ListItemButton } from "@mui/material";
 import { TopicList } from "./util/types";
 import YearList from "./components/YearList";
 import jsonData from "./topics.json";

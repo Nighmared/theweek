@@ -1,4 +1,3 @@
-import { ListItemText } from "@mui/material";
 import { Week } from "../util/types";
 
 interface props {
