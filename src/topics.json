@@ -1,26 +1,26 @@
 {
-    "years": [
-    	{
-			"year": 2023,
-			"weeks": [
-				{
-					"week":4,
-					"topic": "Example"
-				}
-			]
-    	},
+  "years": [
+    {
+      "year": 2023,
+      "weeks": [
         {
-            "year": 2024,
-            "weeks": [
-                {
-                    "week": 1,
-                    "topic": "Teams"
-                },
-                {
-                    "week": 4,
-                    "topic": "Strategie"
-                }
-            ]
+          "week": 4,
+          "topic": "Example"
         }
-    ]
+      ]
+    },
+    {
+      "year": 2024,
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Teams"
+        },
+        {
+          "week": 4,
+          "topic": "Strategie"
+        }
+      ]
+    }
+  ]
 }
