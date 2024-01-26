@@ -4,14 +4,14 @@
       "year": 2023,
       "weeks": [
         {
-            "week": 38,
-            "topic": "ESF",
-            "emoji": "🚑"
-          },
-          {
+          "week": 38,
+          "topic": "ESF",
+          "emoji": "🚑"
+        },
+        {
           "week": 43,
           "topic": "HIC'nt",
-          "emoji":"🏗️"
+          "emoji": "🏗️"
         },
         {
           "week": 46,
@@ -31,7 +31,7 @@
         {
           "week": 4,
           "topic": "«Strategie»",
-          "emoji":  "❓"
+          "emoji": "❓"
         }
       ]
     }

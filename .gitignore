@@ -23,3 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 tools/.venv
+tools/*.json
+tools/*.csv
+tools/__pycache__
+
