@@ -20,6 +20,9 @@ year_dict: dict[int, Year] = dict()
 for line in lines:
     if line == "":
         continue
+    parts = line.split(",")
+    if len(parts) <= 2 or parts[2] == parts[3] == "":
+        continue
     week = Week.from_csv_line(line)
     year_num = line.split(",")[0]
     if year_num not in year_dict:
