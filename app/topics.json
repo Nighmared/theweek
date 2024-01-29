@@ -1,39 +1,59 @@
 {
-  "years": [
+ "years": [
+  {
+   "year": 2023,
+   "weeks": [
     {
-      "year": 2023,
-      "weeks": [
-        {
-          "week": 38,
-          "topic": "ESF",
-          "emoji": "🚑"
-        },
-        {
-          "week": 43,
-          "topic": "HIC'nt",
-          "emoji": "🏗️"
-        },
-        {
-          "week": 46,
-          "topic": "ETH-Tag",
-          "emoji": "🪙"
-        }
-      ]
+     "week": 38,
+     "topic": "ESF",
+     "emoji": "🚑"
     },
     {
-      "year": 2024,
-      "weeks": [
-        {
-          "week": 1,
-          "topic": "Teams",
-          "emoji": "🗳️"
-        },
-        {
-          "week": 4,
-          "topic": "«Strategie»",
-          "emoji": "❓"
-        }
-      ]
+     "week": 43,
+     "topic": "HIC'nt",
+     "emoji": "🏗️"
+    },
+    {
+     "week": 46,
+     "topic": "ETH-Tag",
+     "emoji": "🪙"
+    },
+    {
+     "week": 46,
+     "topic": "Polyball",
+     "emoji": "💃"
+    },
+    {
+     "week": 47,
+     "topic": "Nik's Hütte",
+     "emoji": "🍷"
+    },
+    {
+     "week": 49,
+     "topic": "Nix mehr Hütte",
+     "emoji": ""
     }
-  ]
+   ]
+  },
+  {
+   "year": 2024,
+   "weeks": [
+    {
+     "week": 1,
+     "topic": "Teams",
+     "emoji": "🗳️"
+    },
+    {
+     "week": 2,
+     "topic": "Wahlen",
+     "emoji": "🐋"
+    },
+    {
+     "week": 4,
+     "topic": "«Strategie»",
+     "emoji": "❓"
+    }
+   ]
+  }
+ ]
 }
