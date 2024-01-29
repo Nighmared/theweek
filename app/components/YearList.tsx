@@ -1,6 +1,5 @@
 import { TopicList, Year } from "../util/types";
 
-import { List } from "@mui/material";
 import YearContainer from "./YearContainer";
 
 interface props {
@@ -10,11 +9,13 @@ interface props {
 const YearList: React.FC<props> = ({ topicList }) => {
   return (
     <>
-      <List className="flex flex-col justify-center ">
-        {topicList.years.map((year: Year, i: number) => (
-          <YearContainer year={year} key={i} />
-        ))}
-      </List>
+      <div>
+        <ul className="flex flex-col justify-center">
+          {topicList.years.map((year: Year, i: number) => (
+            <YearContainer year={year} key={i} />
+          ))}
+        </ul>
+      </div>
     </>
   );
 };

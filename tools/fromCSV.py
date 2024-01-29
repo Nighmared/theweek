@@ -1,10 +1,12 @@
+import configparser
 import json
 import os
-import configparser
 from urllib.request import urlretrieve
-from models import TopicsList, Week, Year
+
 import loguru
-logger =loguru.logger
+from models import TopicsList, Week, Year
+
+logger = loguru.logger
 
 
 curr_dir = os.path.dirname(__file__)
@@ -20,7 +22,7 @@ if os.path.exists(ini_file):
     config = configparser.ConfigParser()
     config.read(ini_file)
     file_link = config["gsuite"]["downloadlink"]
-    urlretrieve(file_link,csv_file)
+    urlretrieve(file_link, csv_file)
 
 
 with open(csv_file, "r") as f:
@@ -42,7 +44,7 @@ for line in lines:
     if year_num not in year_dict:
         new_year = Year(year=year_num, weeks=[])
         new_year.prepare()
-        year_dict[year_num] = new_year 
+        year_dict[year_num] = new_year
     year_dict[year_num].add_week(week)
 
 

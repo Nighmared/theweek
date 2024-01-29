@@ -1,5 +1,3 @@
-import { ListItem, ListItemIcon } from "@mui/material";
-
 import { Week } from "../util/types";
 
 interface props {
@@ -8,17 +6,14 @@ interface props {
 
 const WeekContainer: React.FC<props> = ({ week }) => {
   return (
-    <ListItem>
-      <div className="flex flex-row  text-4xl">
-        <div className="flex" />
-        {week.emoji && <ListItemIcon>{week.emoji}</ListItemIcon>}
-        {week.emoji === undefined && <ListItemIcon></ListItemIcon>}
-        <div>Woche {week.week.toString()}:&nbsp;</div>
-        <div>
-          &quot;<span className="text-vseth">{week.topic}</span>&quot;
-        </div>
+    <div className="flex flex-row  text-2xl sm:text-4xl pb-1 sm:pb-4">
+      <div className="flex" />
+      <div className="w-10 sm:w-14">{week.emoji && week.emoji}</div>
+      <div>Woche {week.week.toString()}:&nbsp;</div>
+      <div>
+        &quot;<span className="text-vseth">{week.topic}</span>&quot;
       </div>
-    </ListItem>
+    </div>
   );
 };
 
