@@ -13,3 +13,6 @@ These can be used to make suggestions more easily by editing the csv with a spre
 - run `python fromCSV.py` and a new JSON file will be created in the tools directory
 - Suggest changes by opening a pull request on the repository which replaces `src/topics.json` with the newly generated file
 
+### Direct Download
+
+Optionally one can create a file `config.ini` in the tools directory (the format is given in `config.example.ini`) and the `fromCSV` script will automatically download the csv from a given google sheets file
