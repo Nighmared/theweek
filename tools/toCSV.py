@@ -13,7 +13,8 @@ with open(topics_file, "r") as f:
     cont = f.read()
     obj = loads(cont)
 
-main = TopicsList.parse_obj(obj)
+main = TopicsList.model_validate(obj)
+main.prepare()
 
 
 with open(csv_file, "w") as f:

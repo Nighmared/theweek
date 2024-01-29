@@ -40,3 +40,5 @@ tools/.venv
 tools/*.json
 tools/*.csv
 tools/__pycache__
+tools/*.ini
+!/tools/*.example.ini
