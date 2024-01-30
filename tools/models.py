@@ -38,7 +38,7 @@ class Year(pydantic.BaseModel):
     def add_week(self, week: Week) -> None:
         if week.week in self._week_numbers:
             raise ValueError(
-                    f"Error in year {self.year}: Multiple weeks with the same week number ({w.week})"
+                    f"Error in year {self.year}: Multiple weeks with the same week number ({week.week})"
                 )
         self.weeks.append(week)
         self._make_ordered()
