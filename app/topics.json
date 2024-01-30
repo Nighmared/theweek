@@ -5,13 +5,43 @@
    "weeks": [
     {
      "week": 38,
+     "topic": "WTF Amtsantritt",
+     "emoji": "🥲"
+    },
+    {
+     "week": 39,
      "topic": "ESF",
      "emoji": "🚑"
     },
     {
+     "week": 40,
+     "topic": "Strategieweekend",
+     "emoji": "🚪"
+    },
+    {
+     "week": 41,
+     "topic": "Sweden",
+     "emoji": "🇸🇪"
+    },
+    {
+     "week": 42,
+     "topic": "HICn't",
+     "emoji": "☭"
+    },
+    {
      "week": 43,
-     "topic": "HIC'nt",
-     "emoji": "🏗️"
+     "topic": "(Anti-) Burnoutworkshop",
+     "emoji": "🔥"
+    },
+    {
+     "week": 44,
+     "topic": "Anzüge oder nich Anzüge",
+     "emoji": "🤵"
+    },
+    {
+     "week": 45,
+     "topic": "Projektiweekend",
+     "emoji": "🍻"
     },
     {
      "week": 46,
@@ -27,6 +57,26 @@
      "week": 48,
      "topic": "Nik's",
      "emoji": "🍷"
+    },
+    {
+     "week": 49,
+     "topic": "SHSG-Bonding",
+     "emoji": "🪢"
+    },
+    {
+     "week": 50,
+     "topic": "Kekse",
+     "emoji": "🍪"
+    },
+    {
+     "week": 51,
+     "topic": "Kasse :)",
+     "emoji": "💰"
+    },
+    {
+     "week": 52,
+     "topic": "NaFe",
+     "emoji": "🚗"
     }
    ]
   },
@@ -42,6 +92,11 @@
      "week": 2,
      "topic": "Wahlen",
      "emoji": "🐋"
+    },
+    {
+     "week": 3,
+     "topic": "Ruhe vor dem Sturm",
+     "emoji": "😴"
     },
     {
      "week": 4,
