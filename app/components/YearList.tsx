@@ -9,12 +9,14 @@ interface props {
 const YearList: React.FC<props> = ({ topicList }) => {
   return (
     <>
-      <div>
+      <div className="flex flex-row">
+      <div className=" flex-grow"/>
         <ul className="flex flex-col justify-center">
           {topicList.years.map((year: Year, i: number) => (
             <YearContainer year={year} key={i} />
           ))}
         </ul>
+        <div className=" flex-grow "/>
       </div>
     </>
   );

@@ -11,7 +11,7 @@ class Week(pydantic.BaseModel):
     @staticmethod
     def from_csv_line(line: str) -> "Week":
         parts = line.split(",")
-        assert len(parts) == (len(Week.model_fields) + 1)
+        assert len(parts) >= (len(Week.model_fields) + 1)
         return Week(week=parts[1], emoji=parts[2], topic=parts[3])
 
 
