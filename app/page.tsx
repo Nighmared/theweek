@@ -1,4 +1,3 @@
-import { CodeBracketIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 import Link from "next/link";
 import { TopicList } from "./util/types";
