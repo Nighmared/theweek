@@ -70,7 +70,7 @@
     },
     {
      "week": 51,
-     "topic": "Kasse :)",
+     "topic": "Kasse",
      "emoji": "💰"
     },
     {
@@ -102,6 +102,11 @@
      "week": 4,
      "topic": "«Strategie»",
      "emoji": "❓"
+    },
+    {
+     "week": 5,
+     "topic": "Geschirrspüler",
+     "emoji": "🫧"
     }
    ]
   }
