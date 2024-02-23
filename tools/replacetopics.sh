@@ -1,3 +1,5 @@
 #!/bin/bash
-python fromCSV.py
-cp new_topics.json ../app/topics.json
+gitroot=$(git rev-parse --show-toplevel)
+toolspath="$gitroot/tools"
+python $toolspath/fromCSV.py
+cp $toolspath/new_topics.json $gitroot/app/topics.json
