@@ -1,8 +1,7 @@
 version: "3.3"
 services:
   theweek:
-    pull_policy: build
+    image: ghcr.io/nighmared/theweek:main
     restart: unless-stopped
-    build: .
     ports:
       - 3020:3020
