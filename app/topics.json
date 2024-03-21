@@ -132,6 +132,16 @@
      "week": 10,
      "topic": "Bällebad",
      "emoji": "🔵"
+    },
+    {
+     "week": 11,
+     "topic": "Revision",
+     "emoji": "🧮"
+    },
+    {
+     "week": 12,
+     "topic": "Challenge",
+     "emoji": "🏔️"
     }
    ]
   }
