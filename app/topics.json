@@ -162,6 +162,16 @@
      "week": 16,
      "topic": "Strategieweekend",
      "emoji": "🐑"
+    },
+    {
+     "week": 18,
+     "topic": "VSETH Weekend",
+     "emoji": ""
+    },
+    {
+     "week": 19,
+     "topic": "VPP",
+     "emoji": ""
     }
    ]
   }
